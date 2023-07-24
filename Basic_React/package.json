@@ -2,7 +2,6 @@
   "name": "basic_react",
   "version": "1.0.0",
   "description": "This is a test",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
