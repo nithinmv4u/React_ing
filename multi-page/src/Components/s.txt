@@ -1,0 +1,1 @@
+SELECT * FROM student JOIN department ON student.dep_id=department.dep_id GROUP BY department
