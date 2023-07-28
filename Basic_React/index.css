@@ -1,3 +1,24 @@
 #container {
     background-color: aquamarine;
 }
+
+.header {
+    height: 20 vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+}
+.image {
+    height: 10vh;
+    align-items: start;
+}
+
+.user_icon {
+    position: fixed;
+    height: 10vh;
+    right: 20px;
+}
+
+.search { 
+    height: 70%;
+}

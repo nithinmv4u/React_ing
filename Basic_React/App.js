@@ -33,14 +33,36 @@ const Title = () => {
     )
 }
 
-const HeaderComponent = () => {
+const Logo = () => {
     return (
-        <div>
-            <Title/>
+        <img className='image' src={require("./assets/droplet_4007761.png")} alt="Logo" />
+    )
+}
+
+const SearchBar = () => {
+    return (
+        <input className='search' type="text" placeholder='Search' />
+    )
+}
+
+const UserIcon = () => {
+    return (
+        <img className='user_icon' src={require("./assets/user_1177568.png")} alt="" />
+    )
+}
+
+const HeaderComponent = () => {     
+    return (
+        <div className='header'>
+            <Logo/>
+            <SearchBar/>
+            <UserIcon/>
+            {/* <Title/> */}
+            
             {/* {Title()} Because it's a normal function*/}
-            {heading3}
+            {/* {heading3}
             <h2>React functional Component</h2>
-            <h3>Get Started</h3>
+            <h3>Get Started</h3> */}
         </div>
     )
 }
