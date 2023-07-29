@@ -2,23 +2,43 @@
     background-color: aquamarine;
 }
 
-.header {
-    height: 20 vh;
-    width: 100%;
-    background-color: brown;
-    display: flex;
+body {
+    margin: 0;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #df7818;
+    padding: 1rem;
+}
+
 .image {
-    height: 10vh;
-    align-items: start;
+    height: 50px;
+    /* width: 20%; */
+    max-width: 100px;
 }
 
 .user_icon {
-    position: fixed;
-    height: 10vh;
-    right: 20px;
+    height: 50px;
+    /* width: 20%; */
+    max-width: 100px;
 }
 
 .search { 
-    height: 70%;
+    /* flex: 1; */
+    margin: 0 2%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.search_img{
+    width: 70%;
+    padding: 0.5rem;
+    margin-right: 5%;
+    color: aqua;
 }

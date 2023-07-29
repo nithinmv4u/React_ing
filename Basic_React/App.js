@@ -41,7 +41,11 @@ const Logo = () => {
 
 const SearchBar = () => {
     return (
-        <input className='search' type="text" placeholder='Search' />
+        <div className='search'>
+            <input className='search_img' type="text" placeholder='Search' />
+            <span class="material-symbols-outlined">search</span>
+        </div>
+
     )
 }
 
