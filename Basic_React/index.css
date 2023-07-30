@@ -42,3 +42,22 @@ body {
     margin-right: 5%;
     color: aqua;
 }
+
+.card {
+    border: 1px black solid;
+    width: 15vw;
+    height: 40vh;
+    margin: 2%;
+    padding: .5%;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.restaurant-list {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
